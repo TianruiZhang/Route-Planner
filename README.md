@@ -10,7 +10,8 @@ Python 3.7
 4. Activate the virtual environment: `source env/bin/activate`
 5. Install required dependencies: `pip install -r requirements.txt`
 6. Add the virtual environment to Jupyter Notebook: `python -m ipykernel install --name=env`
-7. When you are done, uninstall the kernel and exit the virtual environment: `jupyter kernelspec uninstall env` and `deactivate`
+7. Open a jupyter notebook: `jupyter notebook` and open `project_notebook.ipynb`
+8. When you are done, uninstall the kernel and exit the virtual environment: `jupyter kernelspec uninstall env` and `deactivate`
 
 
 ![Graph](image.png)
